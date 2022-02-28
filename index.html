@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .numberPad {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      width: 100px;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+    }
+
+    
+    .operations {
+      display: flex;
+      flex-direction: column;
+    }
+  </style>
+  <body>
+    <div class="result">
+      <p id="result">result =</p>
+    </div>
+    <div class="container">
+      <div class="numberPad">
+        <button id="9">9</button>
+        <button id="8">8</button>
+        <button id="7">7</button>
+        <button id="6">6</button>
+        <button id="5">5</button>
+        <button id="4">4</button>
+        <button id="3">3</button>
+        <button id="2">2</button>
+        <button id="1">1</button>
+        <button id="0">0</button>
+      </div>
+      <div class="operations">
+        <button id="+">+</button>
+        <button id="-">-</button>
+        <button id="*">*</button>
+        <button id="/">/</button>
+        <button id="=">=</button>
+      </div>
+    </div>
+  </body>
+  <script src="./sketch.js"></script>
+</html>
