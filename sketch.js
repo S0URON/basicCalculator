@@ -29,5 +29,3 @@ document.querySelectorAll("button").forEach((e) => {
         console.log("currentResult:", currentResult);
     }
 })
-
-//abirmhenni@gmail.com
