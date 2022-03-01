@@ -24,8 +24,8 @@ document.querySelectorAll("button").forEach((e) => {
         if(currentResult)
             document.getElementById("result").innerHTML = "result :" + currentResult;
 
-        console.log("currentValue : ",currentValue);
-        console.log("currentOperation : ",currentOperation);
-        console.log("currentResult:", currentResult);
+        // console.log("currentValue : ",currentValue);
+        // console.log("currentOperation : ",currentOperation);
+        // console.log("currentResult:", currentResult);
     }
 })

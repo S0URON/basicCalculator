@@ -1,0 +1,1 @@
+# Basic calculator made with vanilla JavaScript for school
